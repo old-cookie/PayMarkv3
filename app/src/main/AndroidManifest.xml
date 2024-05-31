@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="oldcookie.paymarkv2">
+    package="oldcookie.paymarkv3">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <application
-        android:name=".UniteApp"
+        android:name="oldcookie.paymarkv3.UniteApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -13,16 +13,16 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".webActivity"
+            android:name="oldcookie.paymarkv3.webActivity"
             android:exported="false" />
-        <activity android:name=".MonthChartActivity" />
-        <activity android:name=".SettingActivity" />
-        <activity android:name=".HistoryActivity" />
-        <activity android:name=".AboutActivity" />
-        <activity android:name=".SearchActivity" />
-        <activity android:name=".RecordActivity" />
+        <activity android:name="oldcookie.paymarkv3.MonthChartActivity" />
+        <activity android:name="oldcookie.paymarkv3.SettingActivity" />
+        <activity android:name="oldcookie.paymarkv3.HistoryActivity" />
+        <activity android:name="oldcookie.paymarkv3.AboutActivity" />
+        <activity android:name="oldcookie.paymarkv3.SearchActivity" />
+        <activity android:name="oldcookie.paymarkv3.RecordActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name="oldcookie.paymarkv3.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
