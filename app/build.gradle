@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId 'oldcookie.paymarkv3'
-        minSdk 34
+        minSdk 26
         targetSdk 34
         versionCode 1
         versionName "1.0"
@@ -26,7 +26,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    buildToolsVersion '34.0.0'
+
 }
 
 dependencies {
@@ -38,6 +38,6 @@ dependencies {
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
-    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    implementation libs.mpandroidchart
 
 }
