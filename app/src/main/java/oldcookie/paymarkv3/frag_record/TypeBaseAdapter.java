@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import oldcookie.paymarkv3.R;
+import oldcookie.paymarkv2.R;
 import oldcookie.paymarkv3.db.TypeBean;
 
 /**
@@ -25,7 +25,7 @@ public class TypeBaseAdapter extends BaseAdapter {
      * Constructor for the TypeBaseAdapter.
      *
      * @param context The context in which the adapter is being used.
-     * @param mDatas The list of TypeBean objects to be displayed.
+     * @param mDatas  The list of TypeBean objects to be displayed.
      */
     public TypeBaseAdapter(Context context, List<TypeBean> mDatas) {
         this.context = context;
@@ -67,9 +67,9 @@ public class TypeBaseAdapter extends BaseAdapter {
     /**
      * Gets a view that displays the data at the specified position in the data set.
      *
-     * @param position The position of the item within the adapter's data set of the item whose view we want.
+     * @param position    The position of the item within the adapter's data set of the item whose view we want.
      * @param convertView The old view to reuse, if possible.
-     * @param parent The parent that this view will eventually be attached to.
+     * @param parent      The parent that this view will eventually be attached to.
      * @return A View corresponding to the data at the specified position.
      */
     @Override

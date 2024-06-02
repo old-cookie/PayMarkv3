@@ -16,7 +16,7 @@ import com.github.mikephil.charting.formatter.ValueFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-import oldcookie.paymarkv3.R;
+import oldcookie.paymarkv2.R;
 import oldcookie.paymarkv3.adapter.ChartItemAdapter;
 import oldcookie.paymarkv3.db.ChartItemBean;
 import oldcookie.paymarkv3.db.DBManager;
@@ -37,8 +37,8 @@ abstract public class BaseChartFragment extends Fragment {
     /**
      * Called to have the fragment instantiate its user interface view.
      *
-     * @param inflater The LayoutInflater object that can be used to inflate any views in the fragment.
-     * @param container If non-null, this is the parent view that the fragment's UI should be attached to.
+     * @param inflater           The LayoutInflater object that can be used to inflate any views in the fragment.
+     * @param container          If non-null, this is the parent view that the fragment's UI should be attached to.
      * @param savedInstanceState If non-null, this fragment is being re-constructed from a previous saved state as given here.
      * @return Return the View for the fragment's UI, or null.
      */
@@ -73,7 +73,7 @@ abstract public class BaseChartFragment extends Fragment {
     /**
      * Sets the data for the axis.
      *
-     * @param year The year to set.
+     * @param year  The year to set.
      * @param month The month to set.
      */
     protected abstract void setAxisData(int year, int month);
@@ -81,7 +81,7 @@ abstract public class BaseChartFragment extends Fragment {
     /**
      * Sets the axis for the chart.
      *
-     * @param year The year to set.
+     * @param year  The year to set.
      * @param month The month to set.
      */
     protected void setAxis(int year, final int month) {
@@ -123,7 +123,7 @@ abstract public class BaseChartFragment extends Fragment {
     /**
      * Sets the Y axis for the chart.
      *
-     * @param year The year to set.
+     * @param year  The year to set.
      * @param month The month to set.
      */
     protected abstract void setYAxis(int year, int month);
@@ -131,7 +131,7 @@ abstract public class BaseChartFragment extends Fragment {
     /**
      * Sets the date for the chart.
      *
-     * @param year The year to set.
+     * @param year  The year to set.
      * @param month The month to set.
      */
     public void setDate(int year, int month) {
@@ -146,9 +146,9 @@ abstract public class BaseChartFragment extends Fragment {
     /**
      * Loads data for the chart.
      *
-     * @param year The year of the data.
+     * @param year  The year of the data.
      * @param month The month of the data.
-     * @param kind The kind of the data.
+     * @param kind  The kind of the data.
      */
     public void loadData(int year, int month, int kind) {
         List<ChartItemBean> list = DBManager.getChartListFromAccounttb(year, month, kind);

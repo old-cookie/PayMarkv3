@@ -7,7 +7,7 @@ import android.text.InputType;
 import android.view.View;
 import android.widget.EditText;
 
-import oldcookie.paymarkv3.R;
+import oldcookie.paymarkv2.R;
 
 /**
  * Utility class for handling keyboard inputs.
@@ -21,7 +21,7 @@ public class KeyBoardUtils {
     /**
      * Listener for keyboard actions.
      */
-    private KeyboardView.OnKeyboardActionListener listener = new KeyboardView.OnKeyboardActionListener() {
+    private final KeyboardView.OnKeyboardActionListener listener = new KeyboardView.OnKeyboardActionListener() {
         @Override
         public void onPress(int primaryCode) {
         }
@@ -85,7 +85,7 @@ public class KeyBoardUtils {
      * Constructor for the KeyBoardUtils.
      *
      * @param keyboardView The KeyboardView to use.
-     * @param editText The EditText to use.
+     * @param editText     The EditText to use.
      */
     public KeyBoardUtils(KeyboardView keyboardView, EditText editText) {
         this.keyboardView = keyboardView;

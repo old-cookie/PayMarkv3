@@ -10,6 +10,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import oldcookie.paymarkv2.R;
+
 /**
  * This class represents a web activity in the application.
  * It extends AppCompatActivity, which is a base class for activities that use the support library action bar features.
@@ -20,6 +22,7 @@ public class webActivity extends AppCompatActivity {
     /**
      * This method is called when the activity is starting.
      * It is where most initialization should go.
+     *
      * @param savedInstanceState If the activity is being re-initialized after previously being shut down then this Bundle contains the data it most recently supplied in onSaveInstanceState(Bundle).
      */
     @Override

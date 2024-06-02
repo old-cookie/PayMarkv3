@@ -12,6 +12,7 @@ import com.google.android.material.tabs.TabLayout;
 import java.util.Arrays;
 import java.util.List;
 
+import oldcookie.paymarkv2.R;
 import oldcookie.paymarkv3.adapter.RecordPagerAdapter;
 import oldcookie.paymarkv3.frag_record.IncomeFragment;
 import oldcookie.paymarkv3.frag_record.OutcomeFragment;

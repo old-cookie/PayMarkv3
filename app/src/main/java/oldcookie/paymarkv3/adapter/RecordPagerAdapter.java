@@ -10,7 +10,7 @@ import androidx.fragment.app.FragmentStatePagerAdapter;
 
 import java.util.List;
 
-import oldcookie.paymarkv3.R;
+import oldcookie.paymarkv2.R;
 
 /**
  * Adapter for managing fragments in a ViewPager with titles.
@@ -23,9 +23,9 @@ public class RecordPagerAdapter extends FragmentStatePagerAdapter {
     /**
      * Constructor for the RecordPagerAdapter.
      *
-     * @param fm the FragmentManager that will interact with this adapter
+     * @param fm           the FragmentManager that will interact with this adapter
      * @param fragmentList the list of Fragments to be displayed in the ViewPager
-     * @param context the context in which the ViewPager is being displayed
+     * @param context      the context in which the ViewPager is being displayed
      */
     public RecordPagerAdapter(@NonNull FragmentManager fm, List<Fragment> fragmentList, Context context) {
         super(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);

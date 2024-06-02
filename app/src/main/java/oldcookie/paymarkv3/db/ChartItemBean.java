@@ -13,9 +13,9 @@ public class ChartItemBean {
     /**
      * Constructor for ChartItemBean.
      *
-     * @param sImageId the image id of the item
-     * @param type the type of the item
-     * @param ratio the ratio of the item
+     * @param sImageId   the image id of the item
+     * @param type       the type of the item
+     * @param ratio      the ratio of the item
      * @param totalMoney the total money of the item
      */
     public ChartItemBean(int sImageId, String type, float ratio, float totalMoney) {

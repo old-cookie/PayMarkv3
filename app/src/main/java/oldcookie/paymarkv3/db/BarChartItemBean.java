@@ -13,9 +13,9 @@ public class BarChartItemBean {
     /**
      * Constructor for BarChartItemBean.
      *
-     * @param year the year of the item
-     * @param month the month of the item
-     * @param day the day of the item
+     * @param year     the year of the item
+     * @param month    the month of the item
+     * @param day      the day of the item
      * @param summoney the sum of money for the item
      */
     public BarChartItemBean(int year, int month, int day, float summoney) {

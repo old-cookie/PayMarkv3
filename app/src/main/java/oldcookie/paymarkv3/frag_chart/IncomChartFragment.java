@@ -61,7 +61,7 @@ public class IncomChartFragment extends BaseChartFragment {
     /**
      * Sets the data for the axis.
      *
-     * @param year The year to set.
+     * @param year  The year to set.
      * @param month The month to set.
      */
     @Override
@@ -97,7 +97,7 @@ public class IncomChartFragment extends BaseChartFragment {
     /**
      * Sets the Y axis for the chart.
      *
-     * @param year The year to set.
+     * @param year  The year to set.
      * @param month The month to set.
      */
     @Override
@@ -119,7 +119,7 @@ public class IncomChartFragment extends BaseChartFragment {
     /**
      * Sets the date for the chart.
      *
-     * @param year The year to set.
+     * @param year  The year to set.
      * @param month The month to set.
      */
     @Override

@@ -12,7 +12,7 @@ import android.widget.EditText;
 
 import androidx.annotation.NonNull;
 
-import oldcookie.paymarkv3.R;
+import oldcookie.paymarkv2.R;
 
 /**
  * A dialog for selecting time in the record page.
@@ -158,10 +158,10 @@ public class SelectTimeDialog extends Dialog implements View.OnClickListener {
         /**
          * Called when the ensure button is clicked.
          *
-         * @param time The selected time.
-         * @param year The selected year.
+         * @param time  The selected time.
+         * @param year  The selected year.
          * @param month The selected month.
-         * @param day The selected day.
+         * @param day   The selected day.
          */
         void onEnsure(String time, int year, int month, int day);
     }

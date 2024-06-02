@@ -14,11 +14,11 @@ public class TypeBean {
     /**
      * Constructor for TypeBean.
      *
-     * @param id the id of the type
+     * @param id       the id of the type
      * @param typename the name of the type
-     * @param imageId the image id of the type
+     * @param imageId  the image id of the type
      * @param simageId the secondary image id of the type
-     * @param kind the kind of the type
+     * @param kind     the kind of the type
      */
     public TypeBean(int id, String typename, int imageId, int simageId, int kind) {
         this.id = id;

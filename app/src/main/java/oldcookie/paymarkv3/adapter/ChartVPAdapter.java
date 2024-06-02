@@ -16,7 +16,7 @@ public class ChartVPAdapter extends FragmentPagerAdapter {
     /**
      * Constructor for the ChartVPAdapter.
      *
-     * @param fm the FragmentManager that will interact with this adapter
+     * @param fm           the FragmentManager that will interact with this adapter
      * @param fragmentList the list of Fragments to be displayed in the ViewPager
      */
     public ChartVPAdapter(FragmentManager fm, List<Fragment> fragmentList) {

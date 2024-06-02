@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-import oldcookie.paymarkv3.R;
+import oldcookie.paymarkv2.R;
 import oldcookie.paymarkv3.adapter.CalendarAdapter;
 import oldcookie.paymarkv3.db.DBManager;
 
@@ -37,8 +37,8 @@ public class CalendarDialog extends Dialog implements View.OnClickListener {
     /**
      * Constructor for the CalendarDialog.
      *
-     * @param context The context in which the dialog is being used.
-     * @param selectPos The selected position.
+     * @param context     The context in which the dialog is being used.
+     * @param selectPos   The selected position.
      * @param selectMonth The selected month.
      */
     public CalendarDialog(@NonNull Context context, int selectPos, int selectMonth) {
@@ -177,8 +177,8 @@ public class CalendarDialog extends Dialog implements View.OnClickListener {
          * Called when the refresh button is clicked.
          *
          * @param selPos The selected position.
-         * @param year The selected year.
-         * @param month The selected month.
+         * @param year   The selected year.
+         * @param month  The selected month.
          */
         void onRefresh(int selPos, int year, int month);
     }

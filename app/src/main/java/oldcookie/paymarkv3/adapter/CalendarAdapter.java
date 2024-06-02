@@ -9,7 +9,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import oldcookie.paymarkv3.R;
+import oldcookie.paymarkv2.R;
 
 /**
  * Adapter for displaying calendar data in a GridView.
@@ -24,7 +24,7 @@ public class CalendarAdapter extends BaseAdapter {
      * Constructor for the CalendarAdapter.
      *
      * @param context the context in which the GridView is being displayed
-     * @param year the year for which the calendar data is to be displayed
+     * @param year    the year for which the calendar data is to be displayed
      */
     public CalendarAdapter(Context context, int year) {
         loadDatas(year);

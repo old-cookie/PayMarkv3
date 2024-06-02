@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
 
-import oldcookie.paymarkv3.R;
+import oldcookie.paymarkv2.R;
 
 /**
  * Class for managing the SQLite database.

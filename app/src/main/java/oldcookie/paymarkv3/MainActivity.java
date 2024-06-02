@@ -17,6 +17,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
+import oldcookie.paymarkv2.R;
 import oldcookie.paymarkv3.adapter.AccountAdapter;
 import oldcookie.paymarkv3.db.AccountBean;
 import oldcookie.paymarkv3.db.DBManager;
@@ -103,7 +104,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         topConTv = headerView.findViewById(R.id.item_mainlv_top_tv_day);
         topbudgetTv.setOnClickListener(this);
         headerView.setOnClickListener(this);
-        ((ImageView) findViewById(R.id.item_mainlv_top_iv_hide)).setOnClickListener(this);
+        findViewById(R.id.item_mainlv_top_iv_hide).setOnClickListener(this);
     }
 
     /**

@@ -12,7 +12,7 @@ import android.widget.EditText;
 
 import androidx.annotation.NonNull;
 
-import oldcookie.paymarkv3.R;
+import oldcookie.paymarkv2.R;
 
 /**
  * A dialog for entering comments.

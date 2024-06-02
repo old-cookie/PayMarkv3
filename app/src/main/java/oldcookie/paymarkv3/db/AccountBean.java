@@ -25,16 +25,16 @@ public class AccountBean {
     /**
      * Constructor for AccountBean.
      *
-     * @param id the id of the account
+     * @param id       the id of the account
      * @param typename the type name of the account
      * @param sImageId the image id of the account
-     * @param comment the comment of the account
-     * @param money the money of the account
-     * @param time the time of the account
-     * @param year the year of the account
-     * @param month the month of the account
-     * @param day the day of the account
-     * @param kind the kind of the account
+     * @param comment  the comment of the account
+     * @param money    the money of the account
+     * @param time     the time of the account
+     * @param year     the year of the account
+     * @param month    the month of the account
+     * @param day      the day of the account
+     * @param kind     the kind of the account
      */
     public AccountBean(int id, String typename, int sImageId, String comment, float money, String time, int year, int month, int day, int kind) {
         this.id = id;

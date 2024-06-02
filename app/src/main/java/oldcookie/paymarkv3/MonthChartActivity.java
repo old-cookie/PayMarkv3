@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
+import oldcookie.paymarkv2.R;
 import oldcookie.paymarkv3.adapter.ChartVPAdapter;
 import oldcookie.paymarkv3.db.DBManager;
 import oldcookie.paymarkv3.frag_chart.IncomChartFragment;
@@ -76,7 +77,7 @@ public class MonthChartActivity extends AppCompatActivity implements View.OnClic
     /**
      * Initializes the statistics for a specific year and month.
      *
-     * @param year The year to initialize statistics for.
+     * @param year  The year to initialize statistics for.
      * @param month The month to initialize statistics for.
      */
     private void initStatistics(int year, int month) {

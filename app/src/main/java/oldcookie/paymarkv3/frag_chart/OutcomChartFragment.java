@@ -51,40 +51,6 @@ public class OutcomChartFragment extends BaseChartFragment {
     }
 
     /**
-     * Called when the fragment is visible to the user and actively running.
-     */
-    @Override
-    public void onResume() {
-        super.onResume();
-        loadData(year, month, kind);
-    }
-
-    /**
-     * Sets the data for the axis.
-     *
-     * @param year The year to set.
-     * @param month The month to set.
-     */
-    @Override
-    protected void setAxisData(int year, int month) {
-        List<IBarDataSet> sets = new ArrayList<>();
-        List<BarChartItemBean> list = DBManager.getSumMoneyOneDayInMonth(year, month, kind);
-        if (list.isEmpty()) {
-            barChart.setVisibility(View.GONE);
-            chartTv.setVisibility(View.VISIBLE);
-        } else {
-            barChart.setVisibility(View.VISIBLE);
-            chartTv.setVisibility(View.GONE);
-            List<BarEntry> barEntries1 = getBarEntries(list);
-            BarDataSet barDataSet1 = getBarDataSet(barEntries1);
-            sets.add(barDataSet1);
-            BarData barData = new BarData(sets);
-            barData.setBarWidth(0.2f);
-            barChart.setData(barData);
-        }
-    }
-
-    /**
      * Creates a list of BarEntry from a list of BarChartItemBean.
      *
      * @param list the list of BarChartItemBean
@@ -108,9 +74,43 @@ public class OutcomChartFragment extends BaseChartFragment {
     }
 
     /**
+     * Called when the fragment is visible to the user and actively running.
+     */
+    @Override
+    public void onResume() {
+        super.onResume();
+        loadData(year, month, kind);
+    }
+
+    /**
+     * Sets the data for the axis.
+     *
+     * @param year  The year to set.
+     * @param month The month to set.
+     */
+    @Override
+    protected void setAxisData(int year, int month) {
+        List<IBarDataSet> sets = new ArrayList<>();
+        List<BarChartItemBean> list = DBManager.getSumMoneyOneDayInMonth(year, month, kind);
+        if (list.isEmpty()) {
+            barChart.setVisibility(View.GONE);
+            chartTv.setVisibility(View.VISIBLE);
+        } else {
+            barChart.setVisibility(View.VISIBLE);
+            chartTv.setVisibility(View.GONE);
+            List<BarEntry> barEntries1 = getBarEntries(list);
+            BarDataSet barDataSet1 = getBarDataSet(barEntries1);
+            sets.add(barDataSet1);
+            BarData barData = new BarData(sets);
+            barData.setBarWidth(0.2f);
+            barChart.setData(barData);
+        }
+    }
+
+    /**
      * Sets the Y axis for the chart.
      *
-     * @param year The year to set.
+     * @param year  The year to set.
      * @param month The month to set.
      */
     @Override
@@ -133,7 +133,7 @@ public class OutcomChartFragment extends BaseChartFragment {
     /**
      * Sets the date for the chart.
      *
-     * @param year The year to set.
+     * @param year  The year to set.
      * @param month The month to set.
      */
     @Override
