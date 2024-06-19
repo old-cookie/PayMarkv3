@@ -7,7 +7,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import oldcookie.paymarkv2.R;
+import oldcookie.paymarkv3.R;
 import oldcookie.paymarkv3.db.DBManager;
 
 /**

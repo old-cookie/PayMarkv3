@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-import oldcookie.paymarkv2.R;
+import oldcookie.paymarkv3.R;
 import oldcookie.paymarkv3.adapter.AccountAdapter;
 import oldcookie.paymarkv3.db.AccountBean;
 import oldcookie.paymarkv3.db.DBManager;
@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     /**
      * Sets the top TextViews to show the correct data.
      */
-    private void setTopTvShow() {
+    void setTopTvShow() {
         float incomeOneDay = DBManager.getSumMoneyOneDay(year, month, day, 1);
         float outcomeOneDay = DBManager.getSumMoneyOneDay(year, month, day, 0);
         String infoOneDay = getString(R.string.today_expenses) + outcomeOneDay + getString(R.string.income_main) + incomeOneDay;
@@ -200,7 +200,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     /**
      * Toggles the visibility of the budget, income, and expenses.
      */
-    private void toggleShow() {
+    void toggleShow() {
         if (isShow) {
             topInTv.setTransformationMethod(PasswordTransformationMethod.getInstance());
             topOutTv.setTransformationMethod(PasswordTransformationMethod.getInstance());

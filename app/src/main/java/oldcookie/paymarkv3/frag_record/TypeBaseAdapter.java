@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import oldcookie.paymarkv2.R;
+import oldcookie.paymarkv3.R;
 import oldcookie.paymarkv3.db.TypeBean;
 
 /**

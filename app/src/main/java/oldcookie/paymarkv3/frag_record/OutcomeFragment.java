@@ -2,7 +2,7 @@ package oldcookie.paymarkv3.frag_record;
 
 import java.util.List;
 
-import oldcookie.paymarkv2.R;
+import oldcookie.paymarkv3.R;
 import oldcookie.paymarkv3.db.DBManager;
 import oldcookie.paymarkv3.db.TypeBean;
 

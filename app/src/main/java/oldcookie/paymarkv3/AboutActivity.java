@@ -7,7 +7,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import oldcookie.paymarkv2.R;
+import oldcookie.paymarkv3.R;
 
 /**
  * This class represents the AboutActivity in the application.

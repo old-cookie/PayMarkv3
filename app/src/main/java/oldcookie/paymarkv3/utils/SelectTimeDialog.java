@@ -12,7 +12,7 @@ import android.widget.EditText;
 
 import androidx.annotation.NonNull;
 
-import oldcookie.paymarkv2.R;
+import oldcookie.paymarkv3.R;
 
 /**
  * A dialog for selecting time in the record page.

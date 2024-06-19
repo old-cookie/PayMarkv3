@@ -10,7 +10,7 @@ import androidx.fragment.app.FragmentStatePagerAdapter;
 
 import java.util.List;
 
-import oldcookie.paymarkv2.R;
+import oldcookie.paymarkv3.R;
 
 /**
  * Adapter for managing fragments in a ViewPager with titles.

@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
-import oldcookie.paymarkv2.R;
+import oldcookie.paymarkv3.R;
 
 /**
  * A dialog for setting the budget.

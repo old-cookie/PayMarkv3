@@ -7,7 +7,7 @@ import android.text.InputType;
 import android.view.View;
 import android.widget.EditText;
 
-import oldcookie.paymarkv2.R;
+import oldcookie.paymarkv3.R;
 
 /**
  * Utility class for handling keyboard inputs.
